@@ -1,42 +1,55 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
+import { DiAndroid, DiTerminal,DiJavascript } from "react-icons/di";
 import { SiJava, SiFirebase, SiGit } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
     title: "Front-end",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    js: "https://portfolio-vinayak-pk.vercel.app/svg/javascript.svg",
+    html:"https://portfolio-vinayak-pk.vercel.app/svg/html-5.svg",
+    css:"https://portfolio-vinayak-pk.vercel.app/svg/css3.svg",
+    react:"https://portfolio-vinayak-pk.vercel.app/svg/react.svg",
+    redux:"https://portfolio-vinayak-pk.vercel.app/svg/redux.svg",
+    tag1:["JavaScripts"],
+    tag2:["HTML"],
+    tag3:["Css"],
+    tag4:["ReactJs"],
+    tag5:["Redux"],
+    
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    title: "Back-end",
+    js: "https://portfolio-vinayak-pk.vercel.app/svg/exp.png",
+    html: "https://miro.medium.com/max/560/1*hAAm71eC0mIg3RIA6S4-DQ.png",
+    css:"https://camo.githubusercontent.com/e00f9a09282eb4d6a168d7eb40221fdc308ceb8d1e1e81b070a6b57551278784/68747470733a2f2f656e637279707465642d74626e302e677374617469632e636f6d2f696d616765733f713d74626e3a414e643947635137456f524a753332315253663851515a5238584a327a4c374c4944487351685266775126757371703d434155",
+    react:"",
+    redux:"",
+    tag1:["ExpressJs"],
+    tag2:["NodeJs"],
+    tag3:["MongoDb"]
+    
+    
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    title: "Programming Language",
+    js: "https://portfolio-vinayak-pk.vercel.app/svg/javascript.svg",
+    html:"",
+    css:"",
+    react:"",
+    redux:"",
+    tag1:["JavaScripts"]
+    
+    
   },
   {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
-  },
-  {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
-  },
-  {
-    slug: "git",
-    Component: SiGit,
-    title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
-  },
+    title: "Version Control",
+    js: "https://git-scm.com/images/logos/logomark-black@2x.png",
+    html:"",
+    css:"",
+    react:"",
+    redux:"",
+    tag1:["GIT"]
+    
+    
+  }
 ];

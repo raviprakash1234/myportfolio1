@@ -8,7 +8,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-         <p>Ravi Prakash Kumar</p>
+         <p>RPK</p>
         </a>
       </Link>
     </Div1>

@@ -66,9 +66,9 @@ export const ListContainer = styled.div`
   }
 `
 
-export const ListTitle = styled.h4`
+export const ListTitle = styled.h3`
   font-weight: 700;
-  font-size: 28px;
+  font-size: 35px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
@@ -91,6 +91,7 @@ export const ListParagraph = styled.div`
   font-size: 18px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
+  
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
@@ -136,3 +137,24 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+
+
+export const ListTitle1 = styled.h3`
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}`

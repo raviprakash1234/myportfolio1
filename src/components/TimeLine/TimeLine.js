@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -42,67 +43,87 @@ const Timeline = () => {
     window.addEventListener('resize', handleResize);
   }, []);
 
+function sendEmail(e){
+  
+  e.preventDefault()
+
+  console.log('e:', e.target)
+
+  emailjs.sendForm('service_5sbgsih',"template_bl3vndi", e.target,"user_E9QHdnAIMQKvajib11Tzf")
+	.then(function(response) {
+	   console.log('SUCCESS!', response.status, response.text);
+	}, function(err) {
+	   console.log('FAILED...', err);
+	});
+  e.target.reset()
+}
+
+
+
   return (
     <Section id="about">
       <SectionTitle>Contact Me</SectionTitle>
       
   
-  <label style={{
-    marginTop:"10px",
-    fontSize:"25px",
-    marginLeft:"30%"
-  }}>Full Name</label>
-  <input style={{
-    width:"40%",
-    height:"30px",
-    marginLeft:"30%",
-    borderRadius:"5px",
-  }} type="text" />
-  <label style={{
-    marginTop:"10px",
-    fontSize:"25px",
-    marginLeft:"30%"
-  }}>Mobile No.</label>
-  <input style={{
-    width:"40%",
-    height:"30px",
-    marginLeft:"30%",
-    borderRadius:"5px",
-  }}  type="number" />
-  <label style={{
-    marginTop:"10px",
-    fontSize:"25px",
-    marginLeft:"30%"
-  }}>Email</label>
-  <input style={{
-    width:"40%",
-    height:"30px",
-    marginLeft:"30%",
-    borderRadius:"5px",
-  }}   type="email" />
-  <label style={{
-    marginTop:"10px",
-    fontSize:"25px",
-    marginLeft:"30%"
-  }}>Massage</label>
-  <textarea style={{
-    width:"40%",
-    height:"160px",
-    marginLeft:"30%",
-    borderRadius:"5px",
-    fontSize:"20px"
-  }}  type="text" />
-  <button style={{
-    width:"100px",
-    height:"25px",
-    marginLeft:"46%",
-    borderRadius:"10px",
-    marginTop:"20px",
-    backgroundColor:"purple",
-    border:"none", 
-    color:"white",
-    fontFamily:"bolder"
-  }} >Submit</button>
+ <form onSubmit={sendEmail}>
+ <label style={{
+  marginTop:"10px",
+  fontSize:"25px",
+  marginLeft:"30%"
+}}>Full Name</label>
+<input style={{
+  width:"40%",
+  height:"30px",
+  marginLeft:"30%",
+  borderRadius:"5px",
+}} type="text" name='name' />
+<label style={{
+  marginTop:"10px",
+  fontSize:"25px",
+  marginLeft:"30%"
+}}>Mobile No.</label>
+<input style={{
+  width:"40%",
+  height:"30px",
+  marginLeft:"30%",
+  borderRadius:"5px",
+}}  type="text" name='mobile'/>
+<label style={{
+  marginTop:"10px",
+  fontSize:"25px",
+  marginLeft:"30%"
+}}>Email</label>
+<input style={{
+  width:"40%",
+  height:"30px",
+  marginLeft:"30%",
+  borderRadius:"5px",
+}}   type="email"  name='email' />
+<label style={{
+  marginTop:"10px",
+  fontSize:"25px",
+  marginLeft:"30%"
+}}>Message</label>
+<textarea style={{
+  width:"40%",
+  height:"160px",
+  marginLeft:"30%",
+  borderRadius:"5px",
+  fontSize:"20px"
+}}  type="text"  name='message'/>
+<input type="submit" style={{
+  width:"10%",
+  height:"25px",
+  marginLeft:"46%",
+  borderRadius:"10px",
+  marginTop:"4%",
+  backgroundColor:"purple",
+  border:"none", 
+  color:"white",
+  fontFamily:"bolder",
+}} value="Send Message" />
+ 
+ </form>
   
    
    
