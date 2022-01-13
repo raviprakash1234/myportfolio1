@@ -8,7 +8,9 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-         <p>RAVI</p>
+         <p style={{
+           marginLeft:"35%"
+         }}>RPK</p>
         </a>
       </Link>
     </Div1>
@@ -57,10 +59,11 @@ const Header = () => (
       display:"flex",
       
     }}>
-    <AiOutlineCloudDownload  size="3rem" />
+    <AiOutlineCloudDownload   size="4rem" />
     <span style={{
       marginLeft:"5px",
-      marginTop:"5px"
+      marginTop:"11px",
+      marginRight:"8%"
     }}>Resume</span>
     </div>
      
