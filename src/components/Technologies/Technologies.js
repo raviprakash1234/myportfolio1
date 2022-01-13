@@ -14,7 +14,7 @@ const Technologies = () => (
   
     <List>
       {Skills.map((Skill) => (
-        <ListItem key={Skill.slug}>
+        
 
           <ListContainer>
             <ListTitle>{Skill.title}</ListTitle>
@@ -117,7 +117,8 @@ const Technologies = () => (
 
           </ListContainer>
           
-        </ListItem>
+        
+          
       ))}
     </List>
 
