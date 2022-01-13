@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import { Section, SectionDivider, SectionText, SectionTitle, } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListTitle1} from "./TechnologiesStyles";
 import { Skills } from './Skills'
+
+
 
 const Technologies = () => (
   <Section id="skills">
@@ -26,6 +28,9 @@ const Technologies = () => (
             width:"10%",
             marginTop:"7px"
           }} src={Skill.js} />
+
+         
+          
           
          <ListTitle1 style={{
            marginLeft:"7px",
@@ -61,12 +66,12 @@ const Technologies = () => (
           }}>
           <img style={{
            width:"10%",
-           marginTop:"7px"
+           marginTop:"10px"
          }} src={Skill.css} />
          
         <ListTitle1 style={{
           marginLeft:"7px",
-          marginTop:"10px"
+          marginTop:"13px"
         }}>
 
     
@@ -79,12 +84,12 @@ const Technologies = () => (
           }}>
           <img style={{
            width:"10%",
-           marginTop:"7px"
+           marginTop:"16px"
          }} src={Skill.react} />
          
         <ListTitle1 style={{
           marginLeft:"7px",
-          marginTop:"8px"
+          marginTop:"16px"
         }}>
 
     
@@ -102,7 +107,7 @@ const Technologies = () => (
          
         <ListTitle1 style={{
           marginLeft:"7px",
-          marginTop:"9px"
+          marginTop:"12px"
         }}>
 
     
