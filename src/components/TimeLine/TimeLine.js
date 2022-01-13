@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-// import { emailjs } from '@emailjs/browser';
+import { emailjs } from '@emailjs/browser';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -67,7 +67,7 @@ const Timeline = () => {
       <SectionTitle>Contact Me</SectionTitle>
       
   
- <form>
+ <form >
  <label style={{
   marginTop:"10px",
   fontSize:"25px",
