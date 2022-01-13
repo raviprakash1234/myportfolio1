@@ -58,7 +58,7 @@ const Timeline = () => {
 //   e.target.reset()
 // }
 
-
+// onSubmit={sendEmail}
 
 
 
@@ -67,7 +67,7 @@ const Timeline = () => {
       <SectionTitle>Contact Me</SectionTitle>
       
   
- <form onSubmit={sendEmail}>
+ <form>
  <label style={{
   marginTop:"10px",
   fontSize:"25px",
