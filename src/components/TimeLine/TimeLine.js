@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-// import { emailjs } from '@emailjs/browser';
+import  emailjs  from '@emailjs/browser';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -43,20 +43,20 @@ const Timeline = () => {
     window.addEventListener('resize', handleResize);
   }, []);
 
-// function sendEmail(e){
+function sendEmail(e){
   
-//   e.preventDefault()
+  e.preventDefault()
 
-//   console.log('e:', e.target)
+  console.log('e:', e.target)
 
-//   emailjs.sendForm('service_5sbgsih',"template_bl3vndi", e.target,"user_E9QHdnAIMQKvajib11Tzf")
-// 	.then(function(response) {
-// 	   console.log('SUCCESS!', response.status, response.text);
-// 	}, function(err) {
-// 	   console.log('FAILED...', err);
-// 	});
-//   e.target.reset()
-// }
+  emailjs.sendForm('service_5sbgsih',"template_bl3vndi", e.target,"user_E9QHdnAIMQKvajib11Tzf")
+	.then(function(response) {
+	   console.log('SUCCESS!', response.status, response.text);
+	}, function(err) {
+	   console.log('FAILED...', err);
+	});
+  e.target.reset()
+}
 
 // onSubmit={sendEmail}
 
@@ -67,7 +67,7 @@ const Timeline = () => {
       <SectionTitle>Contact Me</SectionTitle>
       
   
- <form >
+ <form onSubmit={sendEmail}>
  <label style={{
   marginTop:"10px",
   fontSize:"25px",
