@@ -71,59 +71,76 @@ function sendEmail(e){
  <label style={{
   marginTop:"10px",
   fontSize:"25px",
-  marginLeft:"30%"
+  marginLeft:"25%"
 }}>Full Name</label>
 <input style={{
-  width:"40%",
+  width:"50%",
   height:"30px",
-  marginLeft:"30%",
+  marginLeft:"25%",
   borderRadius:"5px",
+  outline:"none",
+  border:"none",
+  fontSize:"20px",
+  fontFamily:"sans-serif"
 }} type="text" name='name' />
 <label style={{
   marginTop:"10px",
   fontSize:"25px",
-  marginLeft:"30%"
+  marginLeft:"25%"
 }}>Mobile No.</label>
 <input style={{
-  width:"40%",
+  width:"50%",
   height:"30px",
-  marginLeft:"30%",
+  marginLeft:"25%",
   borderRadius:"5px",
+  outline:"none",
+  border:"none",
+  fontSize:"20px",
+  fontFamily:"sans-serif"
 }}  type="text" name='mobile'/>
 <label style={{
   marginTop:"10px",
   fontSize:"25px",
-  marginLeft:"30%"
+  marginLeft:"25%"
 }}>Email</label>
 <input style={{
-  width:"40%",
+  width:"50%",
   height:"30px",
-  marginLeft:"30%",
+  marginLeft:"25%",
   borderRadius:"5px",
+  outline:"none",
+  border:"none",
+  fontSize:"20px",
+  fontFamily:"sans-serif"
 }}   type="email"  name='email' />
 <label style={{
   marginTop:"10px",
   fontSize:"25px",
-  marginLeft:"30%"
+  marginLeft:"25%"
 }}>Message</label>
 <textarea style={{
-  width:"40%",
+  width:"50%",
   height:"160px",
-  marginLeft:"30%",
+  marginLeft:"25%",
   borderRadius:"5px",
+  outline:"none",
+  border:"none",
+  fontSize:"20px",
+  fontFamily:"sans-serif",
   fontSize:"20px"
 }}  type="text"  name='message'/>
 <input type="submit" style={{
-  width:"10%",
-  height:"25px",
-  marginLeft:"46%",
+  width:"15%",
+  height:"35px",
+  marginLeft:"43%",
   borderRadius:"10px",
   marginTop:"4%",
   backgroundColor:"purple",
   border:"none", 
   color:"white",
   fontFamily:"bolder",
-}} value="Send Message" />
+  fontSize:"16px"
+}} value="Submit" />
  
  </form>
   

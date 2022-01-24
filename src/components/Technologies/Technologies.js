@@ -129,12 +129,11 @@ const Technologies = () => (
 
 
 
-   <br/>
-   <br/>
-   <br/>
-   <br/>
+ 
+  
+  
     
-    <SectionDivider colorAlt />
+    <SectionDivider style={{marginTop:"-40"}} colorAlt />
   </Section>
 );
 

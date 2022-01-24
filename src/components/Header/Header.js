@@ -10,7 +10,9 @@ const Header = () => (
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
          <p style={{
            marginLeft:"35%"
-         }}>RPK</p>
+         }}>
+         <img style={{width:"90%"}} src='https://lh3.googleusercontent.com/d/1iUPm5EbG9oENuFCreMDlYWWBJk3CWida=s220?authuser=0'/>
+         </p>
         </a>
       </Link>
     </Div1>

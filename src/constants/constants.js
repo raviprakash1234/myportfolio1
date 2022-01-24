@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Strawberry.Net',
-    description: "Strawberry.Net is E-Commerce website which is dealing with Cosmetic products. Its a startup in techworld and I am trying to improve some more feature by using some advance technology.",
+    description: "Strawberry.Net is E-Commerce website which is dealing with Cosmetic products. Its a startup in techworld and I am trying to improve some more features by using some advance technologies.",
     image: 'https://pbs.twimg.com/media/FIZPcS7VcAQGKmg?format=jpg&name=small',
     tags: ['Html', 'Css', 'JavaScripts', 'EJS', 'MongoDb'],
     source: 'https://github.com/raviprakash1234/strawberrynet',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Rodan And Fields',
-    description: "Rodan And Fields is also is a E-Commerce website which is selling Cosmetic products as well. So here all image in this website is looking very neat and clean and website is aslo looking very fancy.",
+    description: "Rodan And Fields is also is a E-Commerce website which is selling Cosmetic products as well. And website is also looking very fancy.If You want you can visit.",
     image: 'https://pbs.twimg.com/media/FIZzyenVIAAKk4h?format=jpg&name=small',
     tags: ['JavaScripts', 'Html', 'Css'],
     source: 'https://github.com/raviprakash1234/RodanandFields.com',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Faasos',
-    description: "Fasos is a Food Delivery website/App which is dealing with many more Delicious Food item. if anyone want to enjoy your food they can go through it.",
+    description: "Fasos is a Food Delivery website/App which is dealing with many more Delicious Food items. if anyone want to enjoy your food they can go through it.",
     image: 'https://miro.medium.com/max/1400/0*kAaLW6mXVJdMCVU1.png',
     tags: ['JavaScripts', 'Css', 'Html', 'MongoDb', 'Ejs'],
     source: 'https://github.com/pankaj5417/FaasosClone2',

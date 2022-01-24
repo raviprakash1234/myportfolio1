@@ -16,16 +16,17 @@ const Hero = (props) => (
         height:"150px",
         borderRadius:"100px"
       }} src='https://avatars.githubusercontent.com/u/87422643?v=4'/>
-        <SectionTitle>
+        <SectionTitle style={{fontSize:"35px"}}>
           Hey there,
           </SectionTitle>
       <h1>
       <Typewriter 
       options={{
-        strings: ["I Am Ravi Prakash Kumar"],
+        strings: ["I Am Ravi Prakash Kumar",
+                  "Full Stack Web Developer"],
         autoStart: true,
         loop: true,
-        deleteSpeed: 60,
+        deleteSpeed: 50,
       }}
     />
       
@@ -34,9 +35,10 @@ const Hero = (props) => (
        
    <br/>
    <br/>
+
     <SectionText>
-    I am Aspirant of Web Developer with a specialization in MERN stack. Fluent in JavaScripts Html and Css. 
-    Passionate about implementing and launching new projects and my interest is problem solving and learning new things.
+    I am Aspirant of Full Stack Web Developer with a specialization in MERN stack. Fluent in JavaScripts Html and Css. 
+    Passionate about implementing and launching new projects and I am also interested to learn UI/UX design and problem solving.
      </SectionText>
   
       </LeftSection>
