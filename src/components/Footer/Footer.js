@@ -9,8 +9,8 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>LinkdIn</LinkTitle>
-          <LinkItem href="linkedin.com/in/ravi-prakash-kumar-b67467141">ravi-prakash-kumar-b67467141</LinkItem>
+          <LinkTitle>WhatsApp</LinkTitle>
+          <LinkItem href="">+91-9781793743</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2022 <Link href="https://www.vipuljha.com">  Ravi Prakash Kumar</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2022 <Link href="">  Ravi Prakash Kumar</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/raviprakash1234">
