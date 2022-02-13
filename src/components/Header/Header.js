@@ -11,7 +11,10 @@ const Header = () => (
          <p style={{
            marginLeft:"35%"
          }}>
-         <img style={{width:"90%"}} src='https://lh3.googleusercontent.com/d/1iUPm5EbG9oENuFCreMDlYWWBJk3CWida=s220?authuser=0'/>
+        
+         <h2 style={{
+           fontFamily:"cursive"
+         }}>RPK</h2>
          </p>
         </a>
       </Link>

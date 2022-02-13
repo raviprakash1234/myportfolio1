@@ -1,16 +1,16 @@
 export const projects = [
   {
-    title: 'Strawberry.Net',
-    description: "Strawberry.Net is E-Commerse website which is dealing with Cosmetic products. Its a startup in techworld. Who want to Cosmetic poducts easily they can find from here.",
-    image: 'https://pbs.twimg.com/media/FIZSs0hVgAAA0gj?format=jpg&name=small',
-    tags: ['JavaScripts','Html','Css'],
-    source: 'https://github.com/surajmasai/strawberrynet',
-    visit: 'https://strawberrynet.vercel.app/',
+    title: 'Royal Brothers',
+    description: "Royal Brothers is a Bike rental website this is startup in tech world and trying to sloved the people problems. You can now rent a bike on monthly basis from our website.",
+    image: 'https://pbs.twimg.com/media/FLdZfvUaUAEFcXY?format=jpg&name=small',
+    tags: ['ReactJs','Redux','JavaScripts',"ChakraUI","Css"],
+    source: 'https://github.com/sushantsharmaa/ROYAL-BROTHERS-CLONE',
+    visit: 'https://www.google.com/',
     id: 0,
   },
   {
     title: 'Strawberry.Net',
-    description: "Strawberry.Net is E-Commerce website which is dealing with Cosmetic products. Its a startup in techworld and I am trying to improve some more features by using some advance technologies.",
+    description: "Strawberry.Net is E-Commerse website which is dealing with Cosmetic products. Its a startup in techworld. Who want to Cosmetic poducts easily they can find from here.",
     image: 'https://pbs.twimg.com/media/FIZPcS7VcAQGKmg?format=jpg&name=small',
     tags: ['Html', 'Css', 'JavaScripts', 'EJS', 'MongoDb'],
     source: 'https://github.com/raviprakash1234/strawberrynet',
