@@ -3,9 +3,9 @@ export const projects = [
     title: 'Royal Brothers',
     description: "Royal Brothers is a Bike rental website this is startup in tech world and trying to sloved the people problems. You can now rent a bike on monthly basis from our website.",
     image: 'https://pbs.twimg.com/media/FLdZfvUaUAEFcXY?format=jpg&name=small',
-    tags: ['ReactJs','Redux','JavaScripts',"ChakraUI","Css"],
+    tags: ['ReactJs','Redux',"ChakraUI"],
     source: 'https://github.com/sushantsharmaa/ROYAL-BROTHERS-CLONE',
-    visit: 'https://www.google.com/',
+    visit: 'https://www.royalbrothers.com/',
     id: 0,
   },
   {
