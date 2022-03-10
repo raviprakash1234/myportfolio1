@@ -5,7 +5,7 @@ export const projects = [
     image: 'https://pbs.twimg.com/media/FLdZfvUaUAEFcXY?format=jpg&name=small',
     tags: ['ReactJs','Redux',"ChakraUI"],
     source: 'https://github.com/sushantsharmaa/ROYAL-BROTHERS-CLONE',
-    visit: 'https://www.royalbrothers.com/',
+    visit: 'https://royalbrother.netlify.app/',
     id: 0,
   },
   {
