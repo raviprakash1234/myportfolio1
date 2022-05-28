@@ -82,7 +82,7 @@ function sendEmail(e){
   border:"none",
   fontSize:"20px",
   fontFamily:"sans-serif"
-}} type="text" name='name' />
+}} type="text" name='name' placeholder='Enter Your Name' required />
 <label style={{
   marginTop:"10px",
   fontSize:"25px",
@@ -97,7 +97,7 @@ function sendEmail(e){
   border:"none",
   fontSize:"20px",
   fontFamily:"sans-serif"
-}}  type="text" name='mobile'/>
+}}  type="text" name='mobile' placeholder='Enter Your Mobile No.' required/>
 <label style={{
   marginTop:"10px",
   fontSize:"25px",
@@ -112,7 +112,7 @@ function sendEmail(e){
   border:"none",
   fontSize:"20px",
   fontFamily:"sans-serif"
-}}   type="email"  name='email' />
+}}   type="email"  name='email' placeholder='Enter Your Email' required />
 <label style={{
   marginTop:"10px",
   fontSize:"25px",
@@ -140,7 +140,7 @@ function sendEmail(e){
   color:"white",
   fontFamily:"bolder",
   fontSize:"16px"
-}} value="Submit" />
+}} value="Submit" placeholder='Enter Your Message' required/>
  
  </form>
   
