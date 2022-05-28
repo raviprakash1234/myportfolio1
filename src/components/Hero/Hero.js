@@ -37,8 +37,8 @@ const Hero = (props) => (
    <br/>
 
     <SectionText>
-    I am Aspirant of Full Stack Web Developer with a specialization in MERN stack. Fluent in JavaScripts Html and Css. 
-    Passionate about implementing and launching new projects and I am also interested to learn UI/UX design and problem solving.
+    I am a Full Stack Web Developer with a specialization in MERN stack. Fluent in JavaScripts Html and Css. 
+    Passionate about implementing and launching new projects and I am also interested to learn UI/UX design.
      </SectionText>
   
       </LeftSection>
