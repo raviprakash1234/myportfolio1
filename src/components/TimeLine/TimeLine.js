@@ -9,9 +9,10 @@ const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
-  const carouselRef = useRef();
+  const carouselRef = useRef(null);
 
   const scroll = (node, left) => {
+    if (!node) return;
     return node.scrollTo({ left, behavior: 'smooth' });
   }
 
@@ -41,6 +42,7 @@ const Timeline = () => {
     }
 
     window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
 function sendEmail(e){

@@ -7,12 +7,12 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle $main>Projects</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} />
+            {p.image && <Img src={p.image} />}
 
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
             <Hr />

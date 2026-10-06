@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 const Hero = (props) => (
   <>
   
-    <Section row nopadding>
+    <Section $row $nopadding>
     
       <LeftSection>
       <img style={{
