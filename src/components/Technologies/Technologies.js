@@ -7,7 +7,7 @@ import { Skills } from './Skills'
 
 const Technologies = () => (
   <Section id="skills">
-    <SectionDivider divider />
+    <SectionDivider $divider />
     <SectionTitle>Technical Skills</SectionTitle>
     <SectionText>
       I've worked with multiple technologies as a developer to develope multiple projects.
@@ -18,16 +18,16 @@ const Technologies = () => (
       {Skills.map((Skill) => (
         
 
-          <ListContainer>
+          <ListContainer key={Skill.title}>
             <ListTitle>{Skill.title}</ListTitle>
 
            <div style={{
              display:"flex"
            }}>
-           <img style={{
+           {Skill.js && <img style={{
             width:"10%",
             marginTop:"7px"
-          }} src={Skill.js} />
+          }} src={Skill.js} />}
 
          
           
@@ -45,11 +45,11 @@ const Technologies = () => (
            <div style={{
             display:"flex"
           }}>
-          <img style={{
+          {Skill.html && <img style={{
            width:"10%",
            marginTop:"7px"
            
-         }} src={Skill.html} />
+         }} src={Skill.html} />}
          
         <ListTitle1 style={{
           marginLeft:"7px",
@@ -64,10 +64,10 @@ const Technologies = () => (
           <div style={{
             display:"flex"
           }}>
-          <img style={{
+          {Skill.css && <img style={{
            width:"10%",
            marginTop:"10px"
-         }} src={Skill.css} />
+         }} src={Skill.css} />}
          
         <ListTitle1 style={{
           marginLeft:"7px",
@@ -82,10 +82,10 @@ const Technologies = () => (
           <div style={{
             display:"flex"
           }}>
-          <img style={{
+          {Skill.react && <img style={{
            width:"10%",
            marginTop:"16px"
-         }} src={Skill.react} />
+         }} src={Skill.react} />}
          
         <ListTitle1 style={{
           marginLeft:"7px",
@@ -100,10 +100,10 @@ const Technologies = () => (
           <div style={{
             display:"flex"
           }}>
-          <img style={{
+          {Skill.redux && <img style={{
            width:"10%",
            marginTop:"7px"
-         }} src={Skill.redux} />
+         }} src={Skill.redux} />}
          
         <ListTitle1 style={{
           marginLeft:"7px",
@@ -133,7 +133,7 @@ const Technologies = () => (
   
   
     
-    <SectionDivider style={{marginTop:"-40"}} colorAlt />
+    <SectionDivider style={{marginTop:"-40"}} $colorAlt />
   </Section>
 );
 

@@ -6,47 +6,22 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-         <p style={{
-           marginLeft:"35%"
-         }}>
-        
-         <h2 style={{
-           fontFamily:"cursive"
-         }}>RPK</h2>
-         </p>
-        </a>
+      <Link href="/" style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+        <h2 style={{ marginLeft: '35%', fontFamily: 'cursive' }}>RPK</h2>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="">
-          <NavLink style={{
-            marginLeft:"400px"
-          }}>About</NavLink>
-        </Link>
+        <NavLink href="/" style={{ marginLeft: '400px' }}>About</NavLink>
       </li>
       <li>
-        <Link href="#projects">
-          <NavLink style={{
-            marginLeft:"50px"
-          }}>Projects</NavLink>
-        </Link>
+        <NavLink href="#projects" style={{ marginLeft: '50px' }}>Projects</NavLink>
       </li>
       <li>
-        <Link href="#skills">
-          <NavLink style={{
-            marginLeft:"50px"
-          }}>Skills</NavLink>
-        </Link>
+        <NavLink href="#skills" style={{ marginLeft: '50px' }}>Skills</NavLink>
       </li>
       <li>
-        <a href="#about">
-          <NavLink style={{
-            marginLeft:"50px"
-          }}>Contact</NavLink>
-        </a>
+        <NavLink href="#about" style={{ marginLeft: '50px' }}>Contact</NavLink>
       </li>
     </Div2>
     <Div3>
